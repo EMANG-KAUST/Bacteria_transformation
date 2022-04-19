@@ -2,8 +2,8 @@ function [R,C]=predict_transformation(filename, sheet,op)
 %% inputs
 % filename- the path and name of the file
 % sheet- name of the excel sheet
-% op- option to predict with the best model or to predict with all the
-% models
+% op- option to predict with the best model (1) or to predict with all the
+% models (0)
 %% Requirements
 % the models must be on the same folder of the function
 %% output
